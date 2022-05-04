@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial Web", "Financial Web\Financial Web.csproj", "{04D24E2C-F706-4F7A-8665-0BD8C6D61047}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Financial Web", "Financial Web\Financial Web.csproj", "{92BB244D-27A7-48E0-A85A-ACD67BC7D1A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{04D24E2C-F706-4F7A-8665-0BD8C6D61047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04D24E2C-F706-4F7A-8665-0BD8C6D61047}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04D24E2C-F706-4F7A-8665-0BD8C6D61047}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04D24E2C-F706-4F7A-8665-0BD8C6D61047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BB244D-27A7-48E0-A85A-ACD67BC7D1A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BB244D-27A7-48E0-A85A-ACD67BC7D1A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BB244D-27A7-48E0-A85A-ACD67BC7D1A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BB244D-27A7-48E0-A85A-ACD67BC7D1A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B12851F6-B908-4FE0-99AD-AA844A8C837E}
+		SolutionGuid = {826F4666-8C96-4B41-8E48-309405CDD2F7}
 	EndGlobalSection
 EndGlobal
