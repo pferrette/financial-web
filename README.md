@@ -1,2 +1,6 @@
 # financial-web
-Um desenvolvimento web com ASP.NET para treinar os conhecimentos obtidos em um curso .NET além de ser útil para o controle  de finanças pessoais
+Um desenvolvimento de aprendizado. 
+
+O objetivo é colocar em prática os conhecimentos obtidos nos últimos meses para a produção de uma aplicação Web como: ASP.NET Core MVC, EntityFramework Core, Git e Git hub, Bootstrap 5.1
+
+Além de usar esse projeto como aprendizado ele também poderá ser usado para controle financeiro pessoal.
