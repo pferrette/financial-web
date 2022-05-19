@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Asus\Documents\Projeto Web\financial-web\Financial Web\Financial Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Asus/Documents/Projeto Web/financial-web/Financial Web/Financial Web/Views/Gastos/EditGastos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXEVkaXRHYXN0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Asus/Documents/Projeto Web/financial-web/Financial Web/Financial Web/Views/Gastos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FzdG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -8,5 +8,9 @@ namespace Financial_Web.Controllers
         {
             return View();
         }
+        public IActionResult EditGastos()
+        {
+            return View();
+        }
     }
 }

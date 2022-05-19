@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Financial_Web.Models.Gasto>
+
+@{
+    ViewData["Title"] = "EditGastos";
+}
+
+<h1>EditGastos</h1>
+
+<p>
+    @*<a asp-action="Create">Create New</a>*@
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GastoId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParcelaAtual)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalParcelas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FormaDePagamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataPagemento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataInclusão)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GastoId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParcelaAtual)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalParcelas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FormaDePagamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataPagemento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataInclusão)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
